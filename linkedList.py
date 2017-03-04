@@ -33,7 +33,6 @@ class LinkedList:
             print(cur.__element__)
             cur = cur.__next__
         print(cur.__element__, '<- last')
-        print(cur.__next__)
 
     def is_empty(self):
         return self.__head__ is None
